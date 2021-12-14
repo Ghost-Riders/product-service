@@ -44,7 +44,7 @@ public class ProductServiceTest extends Exception {
 
 	@AfterEach
 	public void tearDown() throws Exception {
-		productRepository.deleteAllInBatch();
+//		productRepository.deleteAllInBatch();
 	}
 
 	@Test
